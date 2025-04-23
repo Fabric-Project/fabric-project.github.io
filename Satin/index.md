@@ -21,7 +21,7 @@ Satin provides a scene graph, mesh, geometry, materials, lighting, shaders, came
 Satin follows the common paradigm of creative coding toolkits which you may be familiar with:
 
 - `setup()` - setup your scene, load assets, etc
-- `update()` - prior to every frame draw, updae is called giving you an opportunity to tick animations, etc.
+- `update()` - prior to every frame draw, update is called giving you an opportunity to tick animations, etc.
 - `draw(renderPassDescriptor: MTLRenderPassDescriptor, commandBuffer: MTLCommandBuffer)` allows you to submit rendering commands to the GPU.
 
 - `MetalViewRenderer` is the class which provides the rendering infrastructure in Satin.
