@@ -74,6 +74,7 @@ This is generally the template of all Satin setups. Now we will leverage the som
 
 
 2. Create a `Mesh` and associated `Geometry` and `Material`
+
 ```swift
 import Satin
 
@@ -98,6 +99,7 @@ final class Renderer3D: MetalViewRenderer {
 
 
 3. To render our Mesh, we need a Renderer, a Camera, and optionally a base Object which acts as our scene.
+
 ```swift
 import Satin
 
