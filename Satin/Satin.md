@@ -1,7 +1,7 @@
 ---
 title: Satin
 layout: default
-parent: Navigation
+parent: Satin
 
 ---
 
