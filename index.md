@@ -3,9 +3,25 @@ title: Home
 layout: home
 ---
 
-The Fabric project is the new community home for Satin - a Metal GPU rendering engine for Apple platforms written by Reza Ali, and additional community driven projects, documentations and samples that use Satin. 
 
-The first such project is Velvet, an experimental live coding tool that uses Satin's engine to dynamically compile swift modules and execute them. 
+
+![Satin 1](/_assets/satin-reza-1.jpg)
+![Satin 1](/_assets/satin-reza-2.png)
+![Satin 1](/_assets/satin-reza-3.jpg)
+![Satin 1](/_assets/satin-reza-4.jpeg)
+![Satin 1](/_assets/satin-reza-5.png)
+![Satin 1](/_assets/satin-reza-6.jpeg)
+![Satin 1](/_assets/satin-reza-7.png)
+![Satin 1](/_assets/satin-reza-8.png)
+![Satin 1](/_assets/satin-reza-9.png)
+
+
+The Fabric project is the new community home for Satin - a Metal GPU rendering engine for Apple platforms written by [Reza Ali](http://github.com/rezaali). 
+
+Fabric also hosts additional community projects, documentations and samples that use Satin.  [Read more about Satin's origins on Reza's portfolio site](https://www.syedrezaali.com/#/satin/) 
+
+Satin images courtesy of [Reza Ali](http://github.com/rezaali)
+
 
 
 
