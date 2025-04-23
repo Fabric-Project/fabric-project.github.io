@@ -3,7 +3,7 @@ title: Velvet
 layout: default
 ---
 
-![Velvet 1](./velvet/images/Velvet-1.png)
+![Velvet 1](./images/Velvet-1.png)
 
 
 Velvet is an experimental Swift live coding environment, similar to Processing.
