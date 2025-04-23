@@ -56,6 +56,8 @@ These views all set up a the drawing loop, MTLDevices associated with the view, 
 1. Create a subclass of `MetalViewRenderer` with entrypoints for `setup`, `update` and `draw`
 
 ```swift
+import Satin
+
 final class Renderer3D: MetalViewRenderer {
 
     override func setup() {
@@ -74,6 +76,7 @@ This is generally the template of all Satin setups. Now we will leverage the som
 
 2. Create a `Mesh` and associated `Geometry` and `Material`
 ```swift
+import Satin
 
 final class Renderer3D: MetalViewRenderer {
 
@@ -97,6 +100,8 @@ final class Renderer3D: MetalViewRenderer {
 
 3. To render our Mesh, we need a Renderer, a Camera, and optionally a base Object which acts as our scene.
 ```swift
+import Satin
+
 final class Renderer3D: MetalViewRenderer {
 
     let mesh = Mesh(
@@ -123,6 +128,7 @@ final class Renderer3D: MetalViewRenderer {
 4. Lets add the final missing pieces to draw:
 
 ```swift
+import Satin
 final class Renderer3D: MetalViewRenderer {
 
     let mesh = Mesh(
@@ -154,6 +160,25 @@ final class Renderer3D: MetalViewRenderer {
     }
 }
 ```
+
+Thats all we need for our own `MetalViewRenderer` class, but we need a user interface to draw our `Renderer3D`. Satin provides `SatinMetalView` in SwiftUI.
+
+Here is a simple SwiftUI view that will drive our Renderer3D
+
+```swift
+
+import SwiftUI
+import Satin
+
+struct ContentView: View {
+
+    var body: some View {
+        SatinMetalView(renderer: Renderer3D() )
+    }
+}
+```
+
+
 
 
 
