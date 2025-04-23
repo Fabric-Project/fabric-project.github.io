@@ -3,6 +3,11 @@ title: Home
 layout: home
 ---
 
+The Fabric project is the new community home for Satin - a Metal GPU rendering engine for Apple platforms written by [Reza Ali](http://github.com/rezaali). 
+
+Fabric also hosts additional community projects, documentations and samples that use Satin.  [Read more about Satin's origins on Reza's portfolio site](https://www.syedrezaali.com/#/satin/) 
+
+Satin images courtesy of [Reza Ali](http://github.com/rezaali)
 
 
 ![Satin 1](./images/satin-reza-1.jpg)
@@ -15,12 +20,6 @@ layout: home
 ![Satin 1](./images/satin-reza-8.png)
 ![Satin 1](./images/satin-reza-9.png)
 
-
-The Fabric project is the new community home for Satin - a Metal GPU rendering engine for Apple platforms written by [Reza Ali](http://github.com/rezaali). 
-
-Fabric also hosts additional community projects, documentations and samples that use Satin.  [Read more about Satin's origins on Reza's portfolio site](https://www.syedrezaali.com/#/satin/) 
-
-Satin images courtesy of [Reza Ali](http://github.com/rezaali)
 
 
 
