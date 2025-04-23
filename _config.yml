@@ -1,8 +1,6 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Fabric Project
+description: Satin (Metal Rendering Engine) and Velvet environment.
 theme: just-the-docs
+color_scheme: dark
 
-url: https://just-the-docs.github.io
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+url: https://fabric-projects.github.io
