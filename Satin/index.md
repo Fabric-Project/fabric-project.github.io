@@ -1,7 +1,5 @@
 ---
 title: Satin
-layout: default
-
 ---
 
 # About Satin
