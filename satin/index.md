@@ -5,7 +5,6 @@ layout: default
 
 {:toc}
 
-
 # About Satin
 
 Satin is a Metal GPU rendering engine for Apple platforms, inspired by Three.js.

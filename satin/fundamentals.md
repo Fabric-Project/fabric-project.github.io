@@ -5,6 +5,8 @@ parent: Satin
 nav_order: 2
 ---
 
+{:toc}
+
 # Satin Fundamentals
 
 Satin follows the common paradigm of creative coding toolkits which you may be familiar with:
