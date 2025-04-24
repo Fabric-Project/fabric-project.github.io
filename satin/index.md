@@ -3,6 +3,9 @@ title: Satin
 layout: default
 ---
 
+{:toc}
+
+
 # About Satin
 
 Satin is a Metal GPU rendering engine for Apple platforms, inspired by Three.js.
@@ -14,6 +17,10 @@ Satin is written by [Reza Ali](http://github.com/rezaali).
 Satin is written in Swift, and designed to be flexibe, portable and embeddable into existing code bases. 
 
 Satin provides a scene graph, mesh, geometry, materials, lighting, shaders, camera, animation, parameterization and rendering infrastructure out of the box.
+
+## Installing Satin
+
+Satin is available as a [Swift Package at the Fabic Satin Repository](https://github.com/fabric-Project/Satin) 
 
 ## Satin Fundamentals
 
@@ -49,6 +56,9 @@ To display your rendered scene, Satin provides:
 These views all set up a the drawing loop, MTLDevices associated with the view, command queues, antialiasing, pixel formats, etc. 
 
 ## Examples
+
+### Satin 
+
 
 ### A simple scene
 
