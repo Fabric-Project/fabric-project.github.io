@@ -2,6 +2,7 @@
 title: Samples
 layout: default
 parent: Satin
+nav_order: 6
 ---
 
 # Sample App
