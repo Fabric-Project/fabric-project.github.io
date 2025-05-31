@@ -1,6 +1,8 @@
 ---
 title: Satin
 layout: default
+parent: Home
+
 ---
 
 {:toc}

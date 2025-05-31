@@ -1,6 +1,8 @@
 ---
 title: Velvet
 layout: default
+parent: Home
+
 ---
 
 ![Velvet 1](./images/Velvet-1.png)

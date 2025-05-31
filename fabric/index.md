@@ -1,6 +1,8 @@
 ---
 title: Fabric
 layout: default
+parent: Home
+
 ---
 
 ![Fabric](./images/Fabric-1.png)
