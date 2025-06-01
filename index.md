@@ -3,24 +3,34 @@ title: Home
 layout: home
 ---
 
-The Fabric project is the new community home for Satin - a Metal GPU rendering engine for Apple platforms written by [Reza Ali](http://github.com/rezaali). 
+The Fabric Project hosts a constellation of software for creating high fidelity fabric interactive graphics on Apple platforms. 
 
-Fabric also hosts additional community projects, documentations and samples that use Satin.  [Read more about Satin's origins on Reza's portfolio site](https://www.syedrezaali.com/#/satin/) 
+The Fabric project consists of:
 
-Satin images courtesy of [Reza Ali](http://github.com/rezaali)
-
-
-![Satin 1](./images/satin-reza-1.jpg)
-![Satin 1](./images/satin-reza-2.png)
-![Satin 1](./images/satin-reza-3.jpg)
-![Satin 1](./images/satin-reza-4.jpeg)
-![Satin 1](./images/satin-reza-5.png)
-![Satin 1](./images/satin-reza-6.jpeg)
-![Satin 1](./images/satin-reza-7.png)
-![Satin 1](./images/satin-reza-8.png)
-![Satin 1](./images/satin-reza-9.png)
+## [Satin](https://fabric-project.github.io/satin/)
+    * A Swift framework for working with Metal that includes materials, shaders, geometry, a scene graph. Satin supports modern rendering techniques like physically based shading, shadows, tessellation and even ray tracing. 
+    * Satin supports all modern Apple platforms. 
+    * [Read more about Satin's origins on Reza's portfolio site](https://www.syedrezaali.com/#/satin/) 
 
 
+
+## [Fabric](https://fabric-project.github.io/fabric/)
+    * A new node based editor for Satin that aims to replace gap in tooling that Quartz Composer left. 
+    * A no code environment lets users build interactive compositions, rapidly iterate and experiment with high fidelity graphics.
+    * An interchange format for saving compositions.
+    * An embeddable sdk to load and render Fabric documents.
+
+
+ ## [Velvet](https://fabric-project.github.io/velvet/)
+    * A (very) experimental live coding environment written in swift inspired by processing - allowing one to live compile and hot load Satin code. 
+
+[Satin](https://fabric-project.github.io/satin/) is production ready framework that has been used to ship apps, build interactive experiences and create new artworks.
+
+[Satin](https://fabric-project.github.io/satin/) is authored by [Reza Ali](http://github.com/rezaali). 
+
+The Fabric project aims to maintain and build on Satin's foundations to bring back an era of high quality, performant and experimental software to the Apple platforms as first class citizens. 
+
+The Fabric Project is spearheaded by [Anton Marini](http://github.com/vade), and is looking to build a community of developers and users to help. 
 
 
 
