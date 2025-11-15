@@ -3,6 +3,17 @@
     <channel>
         <title>Fabric Editor</title>
         <item>
+            <title>0.0.1</title>
+            <pubDate>Sat, 15 Nov 2025 11:58:28 -0500</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor%20Alpha%201.zip" length="7803037" type="application/octet-stream" sparkle:edSignature="Q3DVWYkH1aR9syHV7w3fh1VR+yrK6VwVrfUJo3aOQ5gExAioVXPwamYG5oyhiQ2jTRTNX69Ogf0OwkL6MfgdCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor2-1.delta" sparkle:deltaFrom="1" length="1714282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Aj5JWNRAj1jr1U6UedEVjNv5CbANeA618GRndxKeQS1WPLIP6xp9cVEGKU8PbrGhdCXhUg5RkvLE/1RMNjyTBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.0.0</title>
             <pubDate>Fri, 14 Nov 2025 16:06:47 -0500</pubDate>
             <sparkle:version>1</sparkle:version>
