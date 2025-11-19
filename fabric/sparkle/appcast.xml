@@ -3,6 +3,19 @@
     <channel>
         <title>Fabric Editor</title>
         <item>
+            <title>0.0.3</title>
+            <pubDate>Tue, 18 Nov 2025 20:02:56 -0500</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor%20Alpha%203.zip" length="7872353" type="application/octet-stream" sparkle:edSignature="zO7ylRKvBVGphZJrV0keaqK1b2Wx2vo58K4vj0s9Ed5iJ0DRxjD1/KIqQtacMETpSDT3jtIMH4gA/pmDpDDzCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor4-3.delta" sparkle:deltaFrom="3" length="349190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lUvO9aV49rJn/1fCW7QB2qVW7Ei/Khlk4/q+dNOCsroKXDtscMMkt7JngwDz0Wb5NIRen6eKocbCc4Tsw6XmCg=="/>
+                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor4-2.delta" sparkle:deltaFrom="2" length="426898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6xpZexm2CYIS05755ZQH8mLOP74kdUOUXxN+vrs++X/NdNAaSfGNT/gzzaDyfCqB2uAhL0kmRZ1j2iMt/DeeDA=="/>
+                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor4-1.delta" sparkle:deltaFrom="1" length="1791918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xcmlWvE6oC9LHeaGz5DaPBxLNWKN15iAudKhgUvUe16udlf+kCgpShN6H6ZMNkRXaeG4zY32UQZJ/gRP+G2tDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.0.2</title>
             <pubDate>Mon, 17 Nov 2025 09:14:09 -0500</pubDate>
             <sparkle:version>3</sparkle:version>
