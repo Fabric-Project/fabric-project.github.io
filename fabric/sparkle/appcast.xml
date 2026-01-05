@@ -3,6 +3,21 @@
     <channel>
         <title>Fabric Editor</title>
         <item>
+            <title>0.0.7</title>
+            <pubDate>Mon, 05 Jan 2026 13:03:00 -0500</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.0.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor%20Alpha%207.zip" length="21368427" type="application/octet-stream" sparkle:edSignature="qLIolAvQk+q0ruQd8c/vdqlksMi2v01viVxs6yXrpf0kzgNExObEwEm0ZzIrgrxNe2gZO+QPqmdUwswxRbieAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor8-7.delta" sparkle:deltaFrom="7" length="2281118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vs9Lvt4q69HboN+bNC1IYDtA/d4ZsXpvZ2hjOw0/xwJvkGW7Plo63pR87I+tt42GhXholnhQga/O8tu+AH0CBA=="/>
+                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor8-6.delta" sparkle:deltaFrom="6" length="5326030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Djq3XLPkHzgLu3zvWy20uGXHnMlMkTjvp7+wCTFI48tF9UdcTAKA21ZvKBcKG4tvy2dttz8FhLFCKp6U7jNdCQ=="/>
+                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor8-5.delta" sparkle:deltaFrom="5" length="5487842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4BLEB6drF4vh6pY+vbihZQz2uZu1eZF/WCi1B9kEp50xiqlB2Prj95LMeA/smrji/oYfQVcmT7IX9sH0mzesAg=="/>
+                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor8-4.delta" sparkle:deltaFrom="4" length="12860122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l/Q5NpIMSwJQXCqAcphhrmTO1+eGYmgN5hSbvMvWvYOP9ajbyAwbxpgt8xS7QG6rM90pRFlCj971ExVB9tPHCg=="/>
+                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor8-3.delta" sparkle:deltaFrom="3" length="12883166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="g19C+u8ve4UREKfhurymOJGB4OLSEkdiwpwGVg29V4sfmolfcIZzaPJKqkhkKtviZIvdT1jp0ShRsQKk02qkBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.0.6</title>
             <pubDate>Wed, 31 Dec 2025 01:30:02 -0500</pubDate>
             <sparkle:version>7</sparkle:version>
@@ -30,20 +45,6 @@
                 <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor6-3.delta" sparkle:deltaFrom="3" length="10082470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3zW2X48P2ZGF3Ki7neLFlO/ycIFs51HAvlyp0pcuC2My1InVkfKR1OoP2tn7V1C9UPP6vYXWvwKXnEAMXNUuAQ=="/>
                 <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor6-2.delta" sparkle:deltaFrom="2" length="10119314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VrdjSlKGudqn46EYKM1dtFb5cQ7wfZjsoefhlqNLUO2tHn05aNU5nvPvk/DQkJu7CUyK01gXlnrYo7vMkHr+CA=="/>
                 <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor6-1.delta" sparkle:deltaFrom="1" length="11017566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nV3Cnl+sMyiAt9tpt/MWz1ZCjUDe4QTsNA2X95BNCwIU2lPor3Y+mU+O20Dxu4QbwpEbDjoDhvQ+MV+TdI7OBA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.0.4</title>
-            <pubDate>Wed, 26 Nov 2025 15:22:22 -0500</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>0.0.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor%20Alpha%204.zip" length="19494033" type="application/octet-stream" sparkle:edSignature="FP8cVFkUftpS994TdhyImyzInUgU9Q7LxGc+ExMY8vuo6rmuoqEUMRC6VRftOjmXEL0AUG6VgyWN7ekioyPlDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor5-4.delta" sparkle:deltaFrom="4" length="9843442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="o5ihZ6ODbxF345cF4lgmToFKXck0E3XVhq0gs1gFjI76lt2v0jIALtjAxNy/dPi+NBR/oc4qCrXAbg+t9pJKAA=="/>
-                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor5-3.delta" sparkle:deltaFrom="3" length="9903010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8BiO1HmIQtfmXoeQJI/cSxk/uqDztj0M2Ds2sX9x5l+eZmN8gbE+Kwc/DkHMONriXBz3tV0SK2TqUxGpbyNhBg=="/>
-                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor5-2.delta" sparkle:deltaFrom="2" length="9936094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rdCHrZ6qkoXv9RqtnwFg3unb6yxglyWrFW15q9++R8UM/LbC/55p5sc0udeG3YsnU1JPpvuHRx49kBJINWVRCA=="/>
-                <enclosure url="https://fabric-project.github.io/fabric/sparkle/Fabric%20Editor5-1.delta" sparkle:deltaFrom="1" length="10886238" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862896" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rxTnw8302PZRTTozO3N33numb5bnvl35PMFO6agHUuTd+KDth2a5tGa/wZafUbK0qvZa80jll/EU6KRMfaZvBQ=="/>
             </sparkle:deltas>
         </item>
         <item>
