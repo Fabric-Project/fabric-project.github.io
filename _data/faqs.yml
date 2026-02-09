@@ -1,0 +1,23 @@
+- question: "Is Satin like Processing for Swift?"
+  answer: "Philosophically, yes. Like Processing (and OpenFrameworks, etc) Satin is designed for creative exploration with a clean API. Satin allows for integration with modern Swift development, allowing you to take your work and ship a native macOS, iOS, visionOS or tvOS app."
+
+- question: "Can I embed Fabric compositions in my app?"
+  answer: "Yes. That's a core design goal. The Fabric runtime is a Swift Package. Create .fabric compositions with the editor, and load .fabric files and render them in your own applications."
+
+- question: "Can I use Satin without Fabric?"
+  answer: "Absolutely. Satin is a standalone Swift Package. Many developers use it directly for 3D graphics in their apps without ever touching Fabric's node system."
+
+- question: "Do I need to know Swift to use Fabric?"
+  answer: "No. The visual editor lets you build compositions without writing code. But if you want to create custom nodes or embed the runtime, Swift knowledge helps."
+
+- question: "Is Fabric really a Quartz Composer replacement?"
+  answer: "It's a spiritual successor. Fabric shares the same philosophy of visual node-based programming with real-time feedback, rebuilt on modern technology. If you loved QC, you'll feel at home in Fabric."
+
+- question: "Is Fabric free?"
+  answer: "Yes. MIT licensed, open source. The editor, the runtime, the plugin API—all free."
+
+- question: "Can i write my own plugin for Fabric?"
+  answer: "Yes. Fabric has a plugin api similar to Quartz Composer's QCPlugin interface. A single plugin can host many nodes (the equivalent to patches) and can execute logic, create input and output ports, and render if need be. Plugins can leverage Satin's API, or just write raw Metal if they want to."
+
+- question: "Does Fabric support audio processing?"
+  answer: "Not today! That said, nothing about Fabric is inherently opposed to audio processing, but we just havent gotten there! File a feature request, or even better, submit a PR :)"

@@ -1,0 +1,38 @@
+badge: FABRIC FRAMEWORK
+title: "Embeddable Graph Renderer and Interchange Format"
+description: |
+  Fabric Editor is built on top of Fabric Framework, an embeddable cross platform runtime, so you can
+  execute Fabric graphs in your own app on any supported platform. Leverage the Fabric Framework to load .fabric files, create your own 3rd party plugins, and execute
+  and render Fabric graphs just like the editor does.
+
+  <br />
+
+  Fabric Framework is a Swift Package making integration easy.
+
+download_label: GET FABRIC FRAMEWORK
+download_url: "https://github.com/fabric-project/fabric"
+
+features:
+  - title: Swift Package
+    icon: package
+    description: "Easily adopt Fabric in your project via Swift Package Management right in XCode"
+
+  - title: Graph Runtime and Execution
+    icon: cpu
+    description: "Built on top of Satin, Fabric's Framework implements core Graph execution and rendering logic so you don't have to."
+
+  - title: Plugin Architecture
+    icon: toy-brick
+    description: "Don't see a node? You can extend Fabric's capability by writing your own plugin that registers any number of nodes of your own design."
+
+  - title: ".Fabric Exchange Format"
+    icon: file-code
+    description: "Load .fabric files - a simple JSON format that describes a fabric graph, its parameters and dependencies."
+
+  - title: Procedural Graph Creation
+    icon: share-2
+    description: "Don't like node based interfaces? Fabric lets you compose node graphs in code, giving you all the flexibility of the runtime with whatever paradigm suits you."
+
+  - title: Cross Platform
+    icon: globe
+    description: "Unlike the macOS editor, the core Fabric framework runs on macOS, iOS, visionOS and soon, tvOS"

@@ -1,0 +1,18 @@
+links:
+  - label: Fabric
+    url: "#fabric"
+  - label: Satin
+    url: "#satin"
+  - label: Architecture
+    url: "#architecture"
+  - label: FAQs
+    url: "#faq"
+  - label: GitHub
+    url: "https://github.com/Fabric-Project/"
+    external: true
+  - label: Discord
+    url: "https://discord.gg/2KfKSfzD"
+    external: true
+  - label: Sponsor
+    url: "https://github.com/sponsors/Fabric-Project"
+    external: true

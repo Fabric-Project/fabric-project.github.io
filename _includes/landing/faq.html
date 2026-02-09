@@ -1,0 +1,11 @@
+<section class="faq-section" id="faq">
+    <h2 class="faq-title">Frequently Asked Questions</h2>
+    <div class="faq-grid">
+        {% for faq in site.data.faqs %}
+        <div class="faq-card">
+            <h3 class="faq-question">{{ faq.question }}</h3>
+            <div class="faq-answer">{{ faq.answer | markdownify }}</div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

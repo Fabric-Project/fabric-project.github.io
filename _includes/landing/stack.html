@@ -1,0 +1,41 @@
+<section class="stack-section">
+    <div class="stack-header">
+        <h2 class="stack-title">{{ site.data.stack.title }}</h2>
+        <div class="stack-desc">{{ site.data.stack.description | markdownify }}</div>
+    </div>
+    <div class="feature-grid">
+        {% assign row1 = site.data.stack.cards | where: "row", 1 %}
+        {% assign row2 = site.data.stack.cards | where: "row", 2 %}
+        {% assign row3 = site.data.stack.cards | where: "row", 3 %}
+
+        <div class="feature-row feature-row-2">
+            {% for card in row1 %}
+            <div class="feature-card" style="min-height:180px">
+                <i data-lucide="{{ card.icon }}" class="feature-icon{% if card.icon_color == 'cyan' %} feature-icon-cyan{% elsif card.icon_color == 'orange' %} feature-icon-orange{% elsif card.icon_color == 'pink' %} feature-icon-pink{% elsif card.icon_color == 'gray' %}" style="color:#999{% elsif card.icon_color == 'purple' %}" style="color:#8855ff{% endif %}"></i>
+                <h3 class="feature-title">{{ card.title }}</h3>
+                <div class="feature-desc" style="color:#94A3B8">{{ card.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="feature-row">
+            {% for card in row2 %}
+            <div class="feature-card" style="min-height:180px;grid-column:span 3">
+                <i data-lucide="{{ card.icon }}" class="feature-icon{% if card.icon_color == 'cyan' %} feature-icon-cyan{% elsif card.icon_color == 'orange' %} feature-icon-orange{% elsif card.icon_color == 'pink' %} feature-icon-pink{% endif %}"></i>
+                <h3 class="feature-title">{{ card.title }}</h3>
+                <div class="feature-desc" style="color:#94A3B8">{{ card.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="feature-row feature-row-2">
+            {% for card in row3 %}
+            <div class="feature-card" style="min-height:180px">
+                <i data-lucide="{{ card.icon }}" class="feature-icon{% if card.icon_color == 'cyan' %} feature-icon-cyan{% elsif card.icon_color == 'orange' %} feature-icon-orange{% elsif card.icon_color == 'pink' %} feature-icon-pink{% elsif card.icon_color == 'gray' %}" style="color:#999{% elsif card.icon_color == 'purple' %}" style="color:#8855ff{% endif %}"></i>
+                <h3 class="feature-title">{{ card.title }}</h3>
+                <div class="feature-desc" style="color:#94A3B8">{{ card.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

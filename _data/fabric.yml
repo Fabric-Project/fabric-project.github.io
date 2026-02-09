@@ -1,0 +1,141 @@
+badge: FABRIC EDITOR
+title: "Node-based visual programming"
+description: |
+  Instant feedback, creative flow, wire up complex visuals without writing code. 
+
+  <br>
+
+  Fabric Editor is a modern successor to Quartz Composer, allowing you to work with an organized set of
+  data types and to build compelling and complex compositions without writing a single line of code.
+
+  <br />
+
+  Fabric brings an opinionated, user driven experience into the present. Modern rendering. Modern platform support. Modern extensibility.
+
+
+download_label: DOWNLOAD FABRIC EDITOR
+download_url: "#"
+
+hero_cards:
+  - title: Visual Node Editor
+    icon: git-pull-request-arrow
+    layout: left
+    image: "images/fabric_hero_ui.png"
+    text: |
+      An interactive realtime node editor with over 300 included nodes to let you flex your creative muscles.
+
+      <br />
+
+      Fabric borrows from Quartz Composers execution paradigm and data type simplicity.
+
+  - title: Interactivity and Connectivity
+    icon: network
+    layout: right
+    image: "images/fabric_hero_ui.png"
+    text: |
+      Your creativity doesn't live in a vacuum. 
+
+      <br />
+
+      Fabric supports a variety of hardware and software connectivity
+      out of the box, letting your composition connect and interact with the outside world.
+
+      <br />
+
+      Mouse and Keyboard input, receive OSC, MIDI, HID and Game controllers signals, connect to Syphon inputs
+      and outputs to capture and broadcast live video, and more.
+
+  - title: Animation
+    icon: activity
+    layout: left
+    image: "images/fabric_hero_animation.png"
+    text: |
+      Fabric supports a variety of numerical animation and time based controls, allowing for manual key framing,
+      numerical tweening, input smoothing and filtering, allowing you to define the character of your movement.
+
+  - title: Machine Learning
+    icon: brain-cog
+    layout: right
+    image: "images/fabric_hero_ml.png"
+    text: |
+      Fabric supports an expanding suite of machine learning nodes and features such as Face Keypoint Detection,
+      Hand Tracking, Image Segmentation, and ML powered scaling and antialiasing.
+
+      <br />
+
+      You can even run Language Language and Vision Language Models locally, in your graph.
+
+      <br />
+      
+      Model Context Protocol (coming soon) allows for agentic self modification of graphs via natural language.
+      Just tell Fabric what you want.
+
+      
+      Fabric leverages CoreML, MPS and MLX for neural engine and GPU acceleration of ML workloads.
+
+  - title: Hardware Acceleration
+    icon: video
+    layout: left
+    image: "images/fabric_hero_fx.png"
+    text: |
+      Fabric supports a variety of media, including hardware accelerated video (Camera, Quicktime movie playback),
+      Image, 3D model import, and soon Gaussian Splats.
+
+      <br />
+
+      Thanks to the Lygia Shader library, Fabric supports a suite of sophisticated and modern GPU processing
+      intrinsics, allowing for a diverse combination of image process, signed distance field rendering, path
+      tracing, and more.
+
+      <br />
+
+      You can also live code your own Vertex, Fragment or Compute shaders.
+
+features:
+  - title: Visual Node Editor
+    icon: git-branch
+    description: "Intuitive realtime node editor with over 300 included nodes."
+
+  - title: Intuitive Datatypes
+    icon: code
+    description: "You don't need to be a software engineer to use Fabric, with color coded types, and parameters that adapt to their input (casting) you can experiment without needing a PHD."
+
+  - title: Stay Organized
+    icon: folder
+    description: "Fabric supports on canvas notes, with markdown syntax including links and image embeds, and of course we support nested subgraphs."
+
+  - title: Professional Output
+    icon: clapperboard
+    description: "Not just for hobbyists, Fabric is built to power high fidelity graphics output. 16-bit image processing supports HDR natively, with serious color correction tools like color space conversion, color LUTs."
+
+  - title: Audio Reactivity
+    icon: audio-waveform
+    description: "Audio analysis with live input for audio responsive compositions, letting you drive your composition for event and concert designs, live visuals, vj, live code performances or installation environments."
+
+  - title: Image Processing and Computer Vision
+    icon: sparkles
+    description: "Powered by Lygia shader library, Fabric supports image generators, path traced rendering, signed distance field rendering, classic image processing and cv techniques."
+
+  - title: Lights Camera Shadows
+    icon: sun
+    description: "Thanks to Satin, Fabric supports Image based lighting, soft shadows, HDRI environment maps and physically based shading to build cinematic cgi."
+
+  - title: Performance Oriented
+    icon: timer
+    description: "Fabric strives to compete on performance and efficiency. Easily hit 120Hz on Pro Motion displays, leveraged Instanced Rendering and optimized video playback to stay realtime."
+
+gallery:
+  - image: images/fabric_gallery_1.png
+    alt: Gallery 1
+  - image: images/fabric_gallery_image_3.png
+    alt: Gallery 2
+  - image: images/fabric_gallery_image_2.jpeg
+    alt: Gallery 3
+  - image: images/fabric_gallery_sdf.png
+    alt: Gallery 4
+  - image: images/fabric_gallery_glitch.png
+    alt: Gallery 5
+  - image: images/fabric_gallery_cubes.png
+    alt: Gallery 6
+  - image: images/fabric_gallery_environment.jpg
+    alt: Gallery 7

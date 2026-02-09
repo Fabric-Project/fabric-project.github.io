@@ -1,0 +1,13 @@
+<section class="cta-section">
+    <h2 class="cta-title">{{ site.data.cta.title }}</h2>
+    <div class="cta-desc">{{ site.data.cta.description | markdownify }}</div>
+    <div class="cta-buttons">
+        {% for btn in site.data.cta.buttons %}
+        {% if btn.style == "discord" %}
+        <a href="{{ btn.url }}"{% if btn.external %} target="_blank"{% endif %} class="btn btn-secondary" style="background:#5865F2;color:#fff;border:none">{{ btn.label }}</a>
+        {% else %}
+        <a href="{{ btn.url }}"{% if btn.external %} target="_blank"{% endif %} class="btn btn-{{ btn.style }}">{{ btn.label }}</a>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>

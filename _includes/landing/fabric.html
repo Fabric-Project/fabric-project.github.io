@@ -1,0 +1,65 @@
+<section class="fabric-section" id="fabric">
+    <div class="section-header">
+        <span class="badge badge-fabric">{{ site.data.fabric.badge }}</span>
+        <div class="section-header-text">
+            <h2 class="section-title" style="color:#fff">{{ site.data.fabric.title }}</h2>
+            <div class="section-desc">{{ site.data.fabric.description | markdownify }}</div>
+        </div>
+    </div>
+
+    {% for card in site.data.fabric.hero_cards %}
+    <div class="hero-card hero-card-{{ card.layout }}">
+        <div class="hero-card-content">
+            <div class="hero-card-header">
+                <i data-lucide="{{ card.icon }}" class="feature-icon feature-icon-cyan"></i>
+                <span class="hero-card-title">{{ card.title }}</span>
+            </div>
+            <div class="hero-card-text">{{ card.text | markdownify }}</div>
+        </div>
+        <div class="hero-card-image">
+            <img src="{{ card.image }}" alt="{{ card.title }} Screenshot">
+        </div>
+    </div>
+    {% endfor %}
+
+    <div class="feature-grid">
+        {% assign features = site.data.fabric.features %}
+        <div class="feature-row">
+            {% for feature in features limit:3 %}
+            <div class="feature-card">
+                <i data-lucide="{{ feature.icon }}" class="feature-icon feature-icon-cyan"></i>
+                <h3 class="feature-title">{{ feature.title }}</h3>
+                <div class="feature-desc">{{ feature.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="feature-row feature-row-2">
+            {% for feature in features offset:3 limit:2 %}
+            <div class="feature-card">
+                <i data-lucide="{{ feature.icon }}" class="feature-icon feature-icon-cyan"></i>
+                <h3 class="feature-title">{{ feature.title }}</h3>
+                <div class="feature-desc">{{ feature.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="feature-row">
+            {% for feature in features offset:5 limit:3 %}
+            <div class="feature-card">
+                <i data-lucide="{{ feature.icon }}" class="feature-icon feature-icon-cyan"></i>
+                <h3 class="feature-title">{{ feature.title }}</h3>
+                <div class="feature-desc">{{ feature.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="image-carousel">
+        {% for item in site.data.fabric.gallery %}
+        <div class="carousel-image"><img src="{{ item.image }}" alt="{{ item.alt }}"></div>
+        {% endfor %}
+    </div>
+
+    <div class="download-row">
+        <a href="{{ site.data.fabric.download_url }}" class="badge badge-fabric" style="text-decoration:none">{{ site.data.fabric.download_label }}</a>
+    </div>
+</section>
