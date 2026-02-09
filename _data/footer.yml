@@ -1,0 +1,59 @@
+brand: Fabric
+tagline: "Open source. MIT licensed.\nBuilt for the creative coding community."
+copyright: "&copy; 2025 Anton Marini and contributors"
+github_url: "https://github.com/Fabric-Project/"
+
+columns:
+  - title: Product
+    links:
+      - label: Satin
+        url: "#satin"
+      - label: Fabric
+        url: "#fabric"
+      - label: Documentation
+        url: "https://fabric-project.github.io/docs"
+        external: true
+
+  - title: Community
+    links:
+      - label: GitHub
+        url: "https://github.com/Fabric-Project/"
+        external: true
+      - label: Discord
+        url: "https://discord.gg/2KfKSfzD"
+        external: true
+      - label: Contributing
+        url: "https://github.com/Fabric-Project/Fabric/blob/main/CONTRIBUTING.md"
+        external: true
+
+  - title: Resources
+    links:
+      - label: Examples
+        url: "https://github.com/Fabric-Project/Fabric/tree/main/Examples"
+        external: true
+      - label: Releases
+        url: "https://github.com/Fabric-Project/Fabric/releases"
+        external: true
+      - label: License
+        url: "https://github.com/Fabric-Project/Fabric/blob/main/LICENSE"
+        external: true
+
+bottom_links:
+  - label: About
+    url: "#"
+  - label: Privacy
+    url: "#"
+  - label: Terms
+    url: "#"
+
+icon_strip:
+  - code
+  - layers
+  - zap
+  - box
+  - cpu
+  - monitor
+  - sparkles
+  - git-branch
+  - terminal
+  - palette

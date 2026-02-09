@@ -1,0 +1,10 @@
+icon: images/Fabric-Icon.png
+headline: "The creative coding stack for Apple platforms."
+ctas:
+  - label: Get Started
+    url: "#fabric"
+    style: primary
+  - label: View on GitHub
+    url: "https://github.com/Fabric-Project/"
+    style: secondary
+    external: true

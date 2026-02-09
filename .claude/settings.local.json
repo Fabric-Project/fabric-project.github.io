@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ruby --version:*)",
+      "Bash(bundle exec jekyll build:*)",
+      "Bash(export PATH=\"/opt/homebrew/opt/ruby/bin:$PATH\")",
+      "Bash(export GEM_HOME=\"$HOME/.gem/ruby/4.0.0\")",
+      "Bash(export PATH=\"$GEM_HOME/bin:$PATH\")",
+      "Bash(export PATH=\"/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH\")",
+      "Bash(/opt/homebrew/opt/ruby/bin/bundle config set:*)",
+      "Bash(/opt/homebrew/opt/ruby/bin/bundle install:*)",
+      "Bash(/opt/homebrew/opt/ruby/bin/bundle exec jekyll build --trace)"
+    ]
+  }
+}

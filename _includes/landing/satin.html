@@ -1,0 +1,45 @@
+<section class="section" id="satin">
+    <div class="section-header" style="margin-bottom:0">
+        <span class="badge badge-satin">{{ site.data.satin.badge }}</span>
+        <div class="section-header-text">
+            <h2 class="section-title">{{ site.data.satin.title }}</h2>
+            <div class="section-desc" style="color:var(--text-secondary)">{{ site.data.satin.description | markdownify }}</div>
+        </div>
+    </div>
+
+    <div class="code-section">
+        <h3 class="code-label">{{ site.data.satin.code_label }}</h3>
+        <div class="code-block"><pre>{{ site.data.satin.code_sample | strip }}</pre></div>
+    </div>
+
+    <div class="feature-grid" style="margin-top:80px">
+        <div class="feature-row">
+            {% for feature in site.data.satin.features limit:3 %}
+            <div class="feature-card feature-card-light">
+                <i data-lucide="{{ feature.icon }}" class="feature-icon feature-icon-pink"></i>
+                <h3 class="feature-title">{{ feature.title }}</h3>
+                <div class="feature-desc">{{ feature.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="feature-row">
+            {% for feature in site.data.satin.features offset:3 limit:3 %}
+            <div class="feature-card feature-card-light">
+                <i data-lucide="{{ feature.icon }}" class="feature-icon feature-icon-pink"></i>
+                <h3 class="feature-title">{{ feature.title }}</h3>
+                <div class="feature-desc">{{ feature.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="image-carousel" style="margin-top:80px">
+        {% for item in site.data.satin.gallery %}
+        <div class="carousel-image"><img src="{{ item.image }}" alt="{{ item.alt }}"></div>
+        {% endfor %}
+    </div>
+
+    <div class="download-row" style="margin-top:80px">
+        <a href="{{ site.data.satin.download_url }}" target="_blank" class="badge badge-satin" style="text-decoration:none">{{ site.data.satin.download_label }}</a>
+    </div>
+</section>

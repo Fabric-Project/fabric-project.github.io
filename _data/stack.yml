@@ -1,0 +1,41 @@
+title: "The Complete Creative Stack"
+description: |
+  Satin handles rendering—the scene graph, the materials, the shaders, the geometry.
+  Fabric handles composition—the node graph, the visual editor, the runtime.
+  Use them together or separately.
+
+cards:
+  - title: Fabric Editor
+    icon: image
+    icon_color: cyan
+    description: "A node based desktop app that lets you visually author fabric files in realtime. Its a no-code creative coding environment built for all types of users, for all types of creativity. Build on macOS, run on macOS, iOS, visionOS and tvOS"
+    row: 1
+    span: 1
+
+  - title: Your App
+    icon: pyramid
+    icon_color: gray
+    description: "Developing your own app? Import the Fabric Runtime via Swift package, and execute your fabric compositions however you want. Supports macOS, iOS, visionOS and tvOS."
+    row: 1
+    span: 1
+
+  - title: Fabric Framework
+    icon: toy-brick
+    icon_color: orange
+    description: "A graph execution and rendering framework that supports 3rd party plugins, loading fabric documents, and is powered by Satin, the Lygia shader library, and more. Load files authored by the editor, or procedurally create nodes in code and execute them. The Fabric engine allows you to interact how you want. Supports macOS, iOS, visionOS, tvOS"
+    row: 2
+    span: full
+
+  - title: Satin
+    icon: cpu
+    icon_color: pink
+    description: "A high performance, open source creative coding and rendering engine. Supports macOS, iOS, visionOS, tvOS"
+    row: 3
+    span: 1
+
+  - title: Fabric Plugins
+    icon: toy-brick
+    icon_color: purple
+    description: "Included Nodes for working with Fabrics and Satins data types. Or make your own using the 3rd party plugin SDK."
+    row: 3
+    span: 1

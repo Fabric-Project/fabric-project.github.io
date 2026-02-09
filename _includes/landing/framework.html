@@ -1,0 +1,34 @@
+<section class="section section-gray" id="architecture">
+    <div class="section-header">
+        <span class="badge badge-framework">{{ site.data.framework.badge }}</span>
+        <div class="section-header-text">
+            <h2 class="section-title" style="color:#fff">{{ site.data.framework.title }}</h2>
+            <div class="section-desc">{{ site.data.framework.description | markdownify }}</div>
+        </div>
+    </div>
+    <div class="feature-grid">
+        <div class="feature-row">
+            {% for feature in site.data.framework.features limit:3 %}
+            <div class="feature-card">
+                <i data-lucide="{{ feature.icon }}" class="feature-icon feature-icon-orange"></i>
+                <h3 class="feature-title">{{ feature.title }}</h3>
+                <div class="feature-desc">{{ feature.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="feature-row">
+            {% for feature in site.data.framework.features offset:3 limit:3 %}
+            <div class="feature-card">
+                <i data-lucide="{{ feature.icon }}" class="feature-icon feature-icon-orange"></i>
+                <h3 class="feature-title">{{ feature.title }}</h3>
+                <div class="feature-desc">{{ feature.description | markdownify }}</div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+        <div class="download-row">
+        <a href="{{ site.data.framework.download_url }}" class="badge badge-framework" style="text-decoration:none">{{ site.data.framework.download_label }}</a>
+        </div>
+    </div>
+</section>

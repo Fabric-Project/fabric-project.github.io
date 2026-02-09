@@ -1,0 +1,19 @@
+<section class="hero-section" id="home">
+    <nav class="nav">
+        <a href="#home" class="nav-logo">Fabric</a>
+        <ul class="nav-links">
+            {% for link in site.data.navigation.links %}
+            <li><a href="{{ link.url }}"{% if link.external %} target="_blank"{% endif %}>{{ link.label }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    <div class="hero-content">
+        <img src="{{ site.data.hero.icon }}" alt="Fabric Icon" class="hero-icon">
+        <h1 class="hero-headline">{{ site.data.hero.headline }}</h1>
+        <div class="hero-ctas">
+            {% for cta in site.data.hero.ctas %}
+            <a href="{{ cta.url }}" class="btn btn-{{ cta.style }}"{% if cta.external %} target="_blank"{% endif %}>{{ cta.label }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</section>

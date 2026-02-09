@@ -1,0 +1,34 @@
+<div class="icon-strip">
+    {% for icon in site.data.footer.icon_strip %}
+    <i data-lucide="{{ icon }}"></i>
+    {% endfor %}
+</div>
+
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <span class="footer-logo">{{ site.data.footer.brand }}</span>
+            <p class="footer-tagline">{{ site.data.footer.tagline | newline_to_br }}</p>
+        </div>
+        <div class="footer-links">
+            {% for col in site.data.footer.columns %}
+            <div class="footer-col">
+                <span class="footer-col-title">{{ col.title }}</span>
+                {% for link in col.links %}
+                <a href="{{ link.url }}"{% if link.external %} target="_blank"{% endif %}>{{ link.label }}</a>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+   <!--  <div class="footer-bottom">
+        <span class="footer-copyright">{{ site.data.footer.copyright }}</span>
+        <div class="footer-social"><a href="{{ site.data.footer.github_url }}" target="_blank"><i data-lucide="github"></i></a></div>
+    </div> -->
+   <!--  <div class="footer-big-text">Fabric</div>
+    <div class="footer-bottom-links">
+        {% for link in site.data.footer.bottom_links %}
+        <a href="{{ link.url }}">{{ link.label }}</a>
+        {% endfor %}
+    </div> -->
+</footer>

@@ -1,0 +1,15 @@
+title: "Ready to Create?"
+description: "Get started with Satin or follow along with Fabric development."
+buttons:
+  - label: View Docs
+    url: "https://fabric-project.github.io/docs"
+    style: primary
+    external: true
+  - label: Join Discord
+    url: "https://discord.gg/2KfKSfzD"
+    style: discord
+    external: true
+  - label: GitHub
+    url: "https://github.com/Fabric-Project/"
+    style: ghost
+    external: true

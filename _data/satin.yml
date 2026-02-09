@@ -1,0 +1,76 @@
+badge: SATIN FRAMEWORK
+title: "A Swift/C++ Metal rendering engine. No nodes, all code."
+description: |
+  Built from the ground up on Metal, Satin gives you direct access to Apple's GPU architecture
+  without sacrificing the joy of creative exploration.
+  
+  <br />
+
+  It's spiritually similar to frameworks like ThreeJS, Processing and OpenFrameworks, but optimized
+  for modern Apple platforms and letting you create, build and ship industrial grade apps with confidence.
+  
+  <br />
+
+  Satin was originally authored by [Reza Ali](https://www.syedrezaali.com) and contributors, and lives on via the Fabric project.
+
+download_label: GET SATIN
+download_url: "https://github.com/Fabric-Project/Satin"
+
+code_label: "Simple, Expressive API"
+code_sample: |
+  import Satin
+
+  let camera = PerspectiveCamera()
+  let scene = Object()
+  let geometry = SphereGeometry(radius: 1.0)
+  let material = StandardMaterial()
+  material.baseColor = .init(0.8, 0.2, 0.1, 1.0)
+  material.metallic = 0.9
+
+  let mesh = Mesh(geometry: geometry, material: material)
+  scene.add(mesh)
+
+  renderer.draw(scene: scene, camera: camera)
+
+features:
+  - title: Materials
+    icon: image
+    description: "Includes shader library for Physically Based Rendering, UV and Depth visualization and more."
+
+  - title: Geometry
+    icon: codepen
+    description: "Primitives, tessellation, text extrusion, and custom geometry."
+
+  - title: GPU Compute
+    icon: cpu
+    description: "Support for Texture Compute, Buffer Compute and Tesselation Compute"
+
+  - title: Lighting and Shadows
+    icon: sun
+    description: "Satin supports Image Based Lighting and Soft Shadow techniques."
+
+  - title: Scene Graph
+    icon: move-3d
+    description: "Hierarchical transforms and sensible object model for complex 3D scenes"
+
+  - title: Post Processing
+    icon: aperture
+    description: "Out of the box post processing support."
+
+gallery:
+  - image: images/satin-reza-3.jpg
+    alt: Satin Gallery 1
+  - image: images/satin-reza-2.png
+    alt: Satin Gallery 2
+  - image: images/satin-reza-1.jpg
+    alt: Satin Gallery 3
+  - image: images/satin-reza-4.jpeg
+    alt: Satin Gallery 4
+  - image: images/satin-reza-5.png
+    alt: Satin Gallery 5
+  - image: images/satin-reza-6.jpeg
+    alt: Satin Gallery 6
+  - image: images/satin-reza-7.png
+    alt: Satin Gallery 7
+  - image: images/satin-reza-8.png
+    alt: Satin Gallery 8
