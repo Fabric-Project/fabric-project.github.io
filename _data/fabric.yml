@@ -14,7 +14,7 @@ description: |
 
 
 download_label: DOWNLOAD FABRIC EDITOR
-download_url: "#"
+download_url: "https://github.com/fabric-Project/fabric/releases"
 
 hero_cards:
   - title: Visual Node Editor
