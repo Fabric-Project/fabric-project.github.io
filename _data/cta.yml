@@ -6,7 +6,7 @@ buttons:
     style: primary
     external: true
   - label: Join Discord
-    url: "https://discord.gg/2KfKSfzD"
+    url: "https://discord.gg/CrG92BG7xp"
     style: discord
     external: true
   - label: GitHub
